@@ -1,0 +1,85 @@
+{
+  "id": "21310576",
+  "name": "Windows Server 2012 R2 Datacenter - Sysprepped",
+  "runstate": "stopped",
+  "hardware": {
+    "cpus": 1,
+    "supports_multicore": true,
+    "cpus_per_socket": 1,
+    "ram": 1024,
+    "svms": 1,
+    "guestOS": "windows8srv-64",
+    "max_cpus": 12,
+    "min_ram": 256,
+    "max_ram": 262144,
+    "vnc_keymap": null,
+    "uuid": null,
+    "disks": [
+      {
+        "id": "disk-10764455-21793915-scsi-0-0",
+        "size": 30720,
+        "type": "SCSI",
+        "controller": "0",
+        "lun": "0"
+      }
+    ],
+    "storage": 30720,
+    "upgradable": true,
+    "instance_type": null,
+    "time_sync_enabled": true,
+    "rtc_start_time": null,
+    "copy_paste_enabled": true,
+    "nested_virtualization": false,
+    "architecture": "x86"
+  },
+  "error": false,
+  "asset_id": null,
+  "hardware_version": 10,
+  "max_hardware_version": 11,
+  "interfaces": [
+    {
+      "id": "nic-10764455-21793915-0",
+      "ip": "10.0.0.2",
+      "hostname": "2012r2dtctr",
+      "mac": "00:50:56:07:BA:37",
+      "services_count": 0,
+      "services": [ ],
+      "public_ips_count": 0,
+      "public_ips": [ ],
+      "vm_id": "21310576",
+      "vm_name": "Windows Server 2012 R2 Datacenter - Sysprepped",
+      "status": "Powered off",
+      "network_id": "12235634",
+      "network_name": "Default Network",
+      "network_url": "https://cloud.skytap.com/templates/1109637/networks/12235634",
+      "network_type": "automatic",
+      "network_subnet": "10.0.0.0/24",
+      "nic_type": "e1000e",
+      "secondary_ips": [ ],
+      "public_ip_attachments": [ ]
+    }
+  ],
+  "notes": [ ],
+  "labels": [
+    {
+      "type": "Bug ID",
+      "text": "1",
+      "id": "30754"
+    }
+  ],
+  "credentials": [ ],
+  "desktop_resizable": true,
+  "local_mouse_cursor": true,
+  "maintenance_lock_engaged": false,
+  "region_backend": "skytap",
+  "created_at": "2017/08/08 13:44:47 -0700",
+  "can_change_object_state": true,
+  "containers": null,
+  "display_server": null,
+  "audio_in": false,
+  "audio_out": false,
+  "smartclient_connection": {
+    "display_protocol": null
+  },
+  "template_url": "https://cloud.skytap.com/templates/1109637"
+}
